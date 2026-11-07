@@ -4,8 +4,6 @@ title: "Analyse de la BRVM"
 
 # Analyse de la BRVM
 
-**Statut : en préparation.** Aucun diagnostic d'entreprise, calcul de ratio ou constat de marché n'est encore présenté comme un résultat de ce projet.
-
 ## Objectif
 
 Préparer une démarche d'analyse financière de sociétés cotées à la Bourse régionale des valeurs mobilières (BRVM), en reliant les états financiers publiés aux indicateurs de performance et de structure financière.
@@ -30,9 +28,5 @@ Excel pour la collecte structurée et les vérifications ; Python et Pandas pour
 ## Indicateurs prévus
 
 Selon les données disponibles : chiffre d'affaires et évolution, marges, rentabilité des actifs (ROA), rentabilité des capitaux propres (ROE), structure de dette, ratios de liquidité et capacité d'autofinancement (CAF), avec définitions et formules documentées.
-
-## État d'avancement
-
-Travail en préparation : sociétés, périodes, sources et calculs ne sont pas encore arrêtés. Aucun résultat n'est revendiqué.
 
 [Retour à l'accueil]({{ '/' | relative_url }}) · [Présentation du portfolio]({{ '/README.html' | relative_url }})
