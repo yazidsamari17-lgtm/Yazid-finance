@@ -35,4 +35,4 @@ Rendement moyen sur la période définie, volatilité, matrice de corrélation, 
 
 Travail en préparation : les données, paramètres, calculs et résultats restent à établir et à vérifier.
 
-[Retour à l'accueil](../../index.md) · [Présentation du portfolio](../../README.md)
+[Retour à l'accueil]({{ '/' | relative_url }}) · [Présentation du portfolio]({{ '/README.html' | relative_url }})

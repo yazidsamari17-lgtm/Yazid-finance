@@ -35,4 +35,4 @@ Selon le jeu de données : variations et rendements, statistiques descriptives, 
 
 Travail en préparation : le jeu de données, les exercices et les analyses restent à sélectionner et à réaliser.
 
-[Retour à l'accueil](../../index.md) · [Présentation du portfolio](../../README.md)
+[Retour à l'accueil]({{ '/' | relative_url }}) · [Présentation du portfolio]({{ '/README.html' | relative_url }})

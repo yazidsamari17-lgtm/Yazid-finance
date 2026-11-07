@@ -35,4 +35,4 @@ Selon les données disponibles : chiffre d'affaires et évolution, marges, renta
 
 Travail en préparation : sociétés, périodes, sources et calculs ne sont pas encore arrêtés. Aucun résultat n'est revendiqué.
 
-[Retour à l'accueil](../../index.md) · [Présentation du portfolio](../../README.md)
+[Retour à l'accueil]({{ '/' | relative_url }}) · [Présentation du portfolio]({{ '/README.html' | relative_url }})

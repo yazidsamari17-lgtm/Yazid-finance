@@ -35,4 +35,4 @@ Rendement cumulé et périodique, volatilité, baisse maximale, nombre de transa
 
 Travail en préparation : règles, marché, données et résultats sont à définir. Aucun résultat historique ne préjuge de performances futures.
 
-[Retour à l'accueil](../../index.md) · [Présentation du portfolio](../../README.md)
+[Retour à l'accueil]({{ '/' | relative_url }}) · [Présentation du portfolio]({{ '/README.html' | relative_url }})
