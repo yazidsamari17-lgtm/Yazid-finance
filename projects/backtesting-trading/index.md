@@ -4,35 +4,55 @@ title: "Backtesting de stratégies de trading"
 
 # Backtesting de stratégies de trading
 
-**Statut : en préparation.** Aucun rendement simulé ni stratégie gagnante n'est revendiqué.
+<nav class="top-nav" aria-label="Navigation des projets">
+  <a href="{{ '/' | relative_url }}">Accueil</a>
+  <a href="{{ '/projects/analyse-brvm/' | relative_url }}">BRVM</a>
+  <a href="{{ '/projects/portfolio-optimization/' | relative_url }}">Portefeuille</a>
+  <a href="{{ '/projects/python-finance/' | relative_url }}">Python & finance</a>
+</nav>
 
-## Objectif
+## Contexte et problématique
 
-Apprendre à traduire des règles de stratégie en protocole de test historique reproductible et à évaluer les résultats simulés avec prudence.
+Le backtesting consiste à appliquer les règles d'une stratégie à des données historiques afin d'en étudier le comportement simulé. Ce projet vise à comprendre cette démarche et ses limites, sans présenter une simulation comme une promesse de performance réelle.
 
-## Problématique
+La question centrale : une stratégie définie à l'avance aurait-elle produit un profil historique mesurable sur un marché et une période déterminés, après prise en compte des coûts et des biais possibles ?
 
-Une stratégie définie par des règles explicites aurait-elle historiquement produit un profil de risque et de performance mesurable sur une période et un marché donnés, après prise en compte des coûts et des biais possibles ?
+## Objectifs
 
-## Méthodologie envisagée
+- Traduire une idée de stratégie en règles précises et reproductibles.
+- Définir un protocole de test historique transparent.
+- Prendre en compte les coûts, le glissement et le risque.
+- Comprendre les biais et les limites de la simulation.
 
-1. Définir précisément les règles d'entrée, de sortie, de dimensionnement et de gestion du risque avant le test.
-2. Sélectionner un marché et des données historiques documentées ; les marchés évoqués à titre d'intérêt, tels que l'or ou le Bitcoin, ne sont pas encore confirmés comme périmètre d'étude.
-3. Séparer, si les données le permettent, les phases de conception et d'évaluation afin de limiter le surajustement.
-4. Modéliser les frais, le glissement, les délais d'exécution et les périodes sans position lorsque cela est possible.
-5. Comparer le résultat à une référence clairement définie et effectuer des vérifications de sensibilité.
-6. Exposer les limites d'un test historique : qualité des données, biais de survivance, biais d'anticipation et différence entre simulation et exécution réelle.
+## Méthodologie
 
-## Outils envisagés
+1. Définir les règles d'entrée, de sortie, de dimensionnement et de gestion du risque avant tout test.
+2. Choisir un marché et des données historiques documentées.
+3. Séparer, si les données le permettent, les phases de conception et d'évaluation pour limiter le surajustement.
+4. Modéliser les frais et frictions d'exécution dans la mesure du possible.
+5. Comparer à une référence clairement définie et tester la sensibilité des hypothèses.
+6. Documenter les biais de survivance et d'anticipation ainsi que les écarts entre simulation et exécution réelle.
 
-Python, Pandas et une bibliothèque de backtesting telle que Backtesting.py, sous réserve de son adéquation au protocole retenu. Les versions, données et paramètres devront être consignés pour assurer la reproductibilité.
+## Données et sources
 
-## Indicateurs prévus
+Le marché et les données restent à définir. La sélection dépendra de leur disponibilité, de leur qualité et de la possibilité de référencer clairement leur origine et leur période.
 
-Rendement cumulé et périodique, volatilité, baisse maximale, nombre de transactions, taux de transactions gagnantes, ratio gain/perte et ratio de Sharpe si les conventions sont définies. Les indicateurs seront interprétés avec les coûts et la période de test.
+## Outils utilisés ou envisagés
+
+Python et Pandas pour traiter les séries ; Jupyter Notebook pour documenter l'analyse ; une bibliothèque de backtesting seulement si elle convient au protocole ; Excel pour des vérifications complémentaires.
+
+## Indicateurs financiers
+
+Rendement cumulé et périodique, volatilité, baisse maximale, nombre de transactions, taux de transactions gagnantes, ratio gain/perte et ratio de Sharpe sous réserve de conventions clairement définies.
+
+## Résultats et interprétation
+
+Aucun rendement simulé ni stratégie gagnante n'est revendiqué. Aucun résultat de test n'est présenté comme existant à ce stade.
 
 ## État d'avancement
 
-Travail en préparation : règles, marché, données et résultats sont à définir. Aucun résultat historique ne préjuge de performances futures.
+Projet en préparation : les règles, le marché, les données et le protocole de validation restent à définir.
 
-[Retour à l'accueil]({{ '/' | relative_url }}) · [Présentation du portfolio]({{ '/README.html' | relative_url }})
+---
+
+[Retour à l'accueil]({{ '/' | relative_url }})

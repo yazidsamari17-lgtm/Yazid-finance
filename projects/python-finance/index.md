@@ -4,35 +4,54 @@ title: "Python appliqué à la finance"
 
 # Python appliqué à la finance
 
-**Statut : en préparation.** Cette page présente un axe d'apprentissage ; elle ne prétend pas à la réalisation d'analyses ou d'automatisations déjà achevées.
+<nav class="top-nav" aria-label="Navigation des projets">
+  <a href="{{ '/' | relative_url }}">Accueil</a>
+  <a href="{{ '/projects/analyse-brvm/' | relative_url }}">BRVM</a>
+  <a href="{{ '/projects/portfolio-optimization/' | relative_url }}">Portefeuille</a>
+  <a href="{{ '/projects/backtesting-trading/' | relative_url }}">Backtesting</a>
+</nav>
 
-## Objectif
+## Contexte et problématique
 
-Renforcer ma pratique de Python à travers un flux de travail clair pour importer, nettoyer, analyser et visualiser des données financières.
+Ce projet accompagne le développement de ma pratique de Python à travers des cas d'usage financiers. L'enjeu est de transformer des données en informations descriptives vérifiables en gardant une trace des sources, des corrections et des choix de calcul.
 
-## Problématique
+## Objectifs
 
-Comment transformer des données financières hétérogènes en informations descriptives vérifiables, tout en conservant la traçabilité des transformations et en évitant les erreurs de calcul ?
+- Apprendre à importer et examiner des données financières.
+- Nettoyer les données en conservant la trace des transformations.
+- Réaliser des calculs simples, contrôlables et documentés.
+- Produire des tableaux et visualisations lisibles.
+- Organiser le travail pour faciliter sa reproductibilité.
 
-## Méthodologie envisagée
+## Méthodologie
 
-1. Choisir un jeu de données accessible et documenter sa provenance, son format et ses limites.
-2. Charger les données et examiner les types, dates, doublons, valeurs manquantes et unités.
-3. Nettoyer les données en gardant une trace des choix effectués.
-4. Écrire des calculs simples, les vérifier sur des exemples et commenter les conventions retenues.
-5. Produire des tableaux et graphiques lisibles, accompagnés d'une interprétation descriptive prudente.
-6. Organiser le code et la documentation afin de rendre l'analyse reproductible.
+1. Choisir un jeu de données accessible et décrire sa provenance, son format et ses limites.
+2. Examiner les types, dates, doublons, valeurs manquantes et unités.
+3. Documenter les opérations de nettoyage.
+4. Écrire et vérifier des calculs sur des exemples compréhensibles.
+5. Créer des tableaux ou graphiques avec une interprétation descriptive prudente.
+6. Conserver une documentation claire des étapes et conventions.
 
-## Outils envisagés
+## Données et sources
 
-Python, Pandas et NumPy pour la manipulation et les calculs ; Matplotlib pour les graphiques ; Jupyter Notebook pourra servir de support d'exploration. Excel pourra aider à contrôler certaines étapes.
+Le jeu de données reste à sélectionner. Il devra être accessible, documenté et adapté à un exercice pédagogique ; sa source, sa période et ses limites seront indiquées.
 
-## Indicateurs prévus
+## Outils utilisés ou envisagés
 
-Selon le jeu de données : variations et rendements, statistiques descriptives, moyenne et dispersion, volatilité sur une fenêtre documentée, valeurs manquantes et nombre d'observations. Les indicateurs seront choisis en fonction des données plutôt que présentés comme des résultats prédéterminés.
+Python, Pandas et NumPy pour la manipulation et les calculs ; Matplotlib pour les graphiques ; Jupyter Notebook pour les explorations ; Excel pour des contrôles ponctuels.
+
+## Indicateurs financiers
+
+Selon les données retenues : variations et rendements, statistiques descriptives, moyenne et dispersion, volatilité sur une fenêtre définie, nombre d'observations et valeurs manquantes.
+
+## Résultats et interprétation
+
+Aucun résultat d'analyse ou d'automatisation achevée n'est revendiqué. Les exercices et résultats seront documentés lorsqu'ils auront été réalisés et vérifiés.
 
 ## État d'avancement
 
-Travail en préparation : le jeu de données, les exercices et les analyses restent à sélectionner et à réaliser.
+Axe d'apprentissage en préparation : jeu de données, exercices et analyses restent à sélectionner et à réaliser.
 
-[Retour à l'accueil]({{ '/' | relative_url }}) · [Présentation du portfolio]({{ '/README.html' | relative_url }})
+---
+
+[Retour à l'accueil]({{ '/' | relative_url }})
