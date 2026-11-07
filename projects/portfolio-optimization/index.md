@@ -1,38 +1,73 @@
 ---
-title: "Optimisation de portefeuille"
+title: "Backtesting de stratégies de trading"
 ---
 
-# Optimisation de portefeuille
+# Backtesting de stratégies de trading
 
-**Statut : en préparation.** Cette page décrit un projet d'étude envisagé ; aucune analyse empirique ni performance de portefeuille n'est présentée comme déjà obtenue.
+<nav class="top-nav" aria-label="Navigation du projet">
+  <a href="{{ '/' | relative_url }}">Accueil</a>
+  <a href="{{ '/README.html' | relative_url }}">Portfolio</a>
+  <a href="{{ '/projects/analyse-brvm/' | relative_url }}">BRVM</a>
+  <a href="{{ '/projects/portfolio-optimization/' | relative_url }}">Portefeuille</a>
+  <a href="{{ '/projects/python-finance/' | relative_url }}">Python</a>
+</nav>
 
-## Objectif
+## Contexte et problématique
 
-Étudier comment la diversification et l'allocation entre actifs peuvent influer sur le profil de rendement et de risque d'un portefeuille, en s'appuyant sur les notions de théorie moderne du portefeuille.
+Ce projet consiste à explorer la logique du backtesting, c'est-à-dire le test historique d'une stratégie de trading sur des données passées, afin d'évaluer sa cohérence, ses limites et son profil de risque. Il s'agit d'un axe d'apprentissage important en finance quantitative, mais sans prétendre à des performances garanties ou à des recommandations d'investissement.
 
-## Problématique
+La question centrale est la suivante : une règle de trading donnée pourrait-elle, sur un marché et sur une période historiques, produire un résultat mesurable et interprétable, après prise en compte des coûts, des frictions et des biais possibles ?
 
-Comment comparer des allocations possibles et décrire leur compromis entre rendement attendu et risque, tout en tenant compte des hypothèses et de la période d'observation ?
+## Objectifs
 
-## Méthodologie envisagée
+- Comprendre la conversion d'une idée de trading en règles de décision explicites.
+- Formaliser un protocole de test historique reproductible.
+- Étudier les effets des coûts, du glissement et des limites de données.
+- Identifier les indicateurs utiles pour résumer la performance et le risque.
+- À défaut de résultats définitifs, documenter clairement les hypothèses et leurs limites.
 
-1. Sélectionner des actifs et des séries de prix documentées, sous réserve de disponibilité et de droits d'utilisation.
-2. Définir la période, la fréquence et les règles de traitement des données manquantes.
-3. Calculer les rendements selon une convention explicitée et vérifier la qualité des séries.
-4. Étudier la volatilité et les corrélations entre actifs.
-5. Comparer des allocations définies à l'avance et, si les données le permettent, explorer une optimisation moyenne-variance.
-6. Documenter les hypothèses, les limites des données historiques et les risques de biais ; ne pas interpréter les résultats passés comme une garantie de résultats futurs.
+## Méthodologie
 
-## Outils envisagés
+1. Définir précisément les règles d'entrée, de sortie, le dimensionnement et la gestion du risque.
+2. Sélectionner un marché et une période de données historiques vérifiables.
+3. Séparer les phases de conception et d'évaluation pour limiter les biais de surajustement.
+4. Prendre en compte les frais, le glissement et les périodes sans position.
+5. Comparer le résultat à une référence claire et documentée.
+6. Exposer les limites méthodologiques, notamment les biais de survivance et les différences entre simulation et exécution réelle.
 
-Python, Pandas, NumPy et Matplotlib ; Excel pourra être utilisé pour des vérifications ou une présentation complémentaire. Les bibliothèques et sources retenues seront précisées lorsque le travail sera effectivement réalisé.
+## Données et sources
 
-## Indicateurs prévus
+Les données seront choisies avec soin selon leur accessibilité et leur qualité. Elles pourront provenir de marchés financiers publics ou d'ensembles de données documentés, à condition d'être clairement référencées et interprétées avec prudence.
 
-Rendement moyen sur la période définie, volatilité, matrice de corrélation, poids des actifs, rendement et risque du portefeuille, ainsi qu'un ratio de Sharpe uniquement si ses hypothèses (notamment le taux sans risque et l'annualisation) sont explicitement définies.
+## Outils utilisés ou envisagés
+
+- Python
+- Pandas et NumPy pour le traitement des séries historiques
+- Jupyter Notebook pour la documentation et la reproductibilité
+- Bibliothèque de backtesting si le protocole le justifie
+- Excel pour des vérifications complémentaires
+
+## Indicateurs financiers
+
+Les indicateurs envisagés incluent :
+
+- rendement cumulé et rendement périodique ;
+- volatilité ;
+- baisse maximale ;
+- nombre de transactions ;
+- taux de transactions gagnantes ;
+- ratio gain/perte ;
+- ratio de Sharpe, uniquement si ses hypothèses sont explicitement respectées.
+
+## Résultats et interprétation
+
+Aucun rendement simulé, performance historique ou stratégie gagnante n'est revendiqué à ce stade. Le projet relève d'un apprentissage méthodique et n'a pas vocation à présenter des résultats financiers comme démontrés.
 
 ## État d'avancement
 
-Travail en préparation : les données, paramètres, calculs et résultats restent à établir et à vérifier.
+Travail en préparation : les règles de stratégie, le marché retenu, les données et la validation méthodologique restent à définir.
+
+---
 
 [Retour à l'accueil]({{ '/' | relative_url }}) · [Présentation du portfolio]({{ '/README.html' | relative_url }})
+

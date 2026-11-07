@@ -1,38 +1,82 @@
 ---
-title: "Backtesting de stratégies de trading"
+title: "Analyse de la BRVM"
 ---
 
-# Backtesting de stratégies de trading
+# Analyse de la BRVM
 
-**Statut : en préparation.** Aucun rendement simulé ni stratégie gagnante n'est revendiqué.
+<nav class="top-nav" aria-label="Navigation du projet">
+  <a href="{{ '/' | relative_url }}">Accueil</a>
+  <a href="{{ '/README.html' | relative_url }}">Portfolio</a>
+  <a href="{{ '/projects/portfolio-optimization/' | relative_url }}">Portefeuille</a>
+  <a href="{{ '/projects/backtesting-trading/' | relative_url }}">Backtesting</a>
+  <a href="{{ '/projects/python-finance/' | relative_url }}">Python</a>
+</nav>
 
-## Objectif
+## Contexte et problématique
 
-Apprendre à traduire des règles de stratégie en protocole de test historique reproductible et à évaluer les résultats simulés avec prudence.
+Ce projet vise à structurer une démarche d'analyse financière appliquée au marché régional des valeurs mobilières, en particulier à la BRVM. L'objectif est d'appréhender les informations accessibles sur les sociétés cotées, de comprendre leur situation économique et financière, et de documenter les méthodes d'évaluation de manière rigoureuse.
 
-## Problématique
+Le principal enjeu consiste à relier les informations comptables, les indicateurs de performance et les sources documentées, tout en évitant les interprétations excessives ou non vérifiées.
 
-Une stratégie définie par des règles explicites aurait-elle historiquement produit un profil de risque et de performance mesurable sur une période et un marché donnés, après prise en compte des coûts et des biais possibles ?
+## Objectifs
 
-## Méthodologie envisagée
+- Étudier les entreprises cotées et les secteurs représentés sur la BRVM.
+- Identifier les informations financières pertinentes et leurs sources.
+- Calculer des indicateurs de performance, de rentabilité et de structure financière lorsque les données sont disponibles.
+- Comprendre les écarts entre données comptables, dynamiques sectorielles et réalité du marché.
+- Faire preuve de prudence dans l'interprétation des résultats.
 
-1. Définir précisément les règles d'entrée, de sortie, de dimensionnement et de gestion du risque avant le test.
-2. Sélectionner un marché et des données historiques documentées ; les marchés évoqués à titre d'intérêt, tels que l'or ou le Bitcoin, ne sont pas encore confirmés comme périmètre d'étude.
-3. Séparer, si les données le permettent, les phases de conception et d'évaluation afin de limiter le surajustement.
-4. Modéliser les frais, le glissement, les délais d'exécution et les périodes sans position lorsque cela est possible.
-5. Comparer le résultat à une référence clairement définie et effectuer des vérifications de sensibilité.
-6. Exposer les limites d'un test historique : qualité des données, biais de survivance, biais d'anticipation et différence entre simulation et exécution réelle.
+## Méthodologie
 
-## Outils envisagés
+1. Définir les sociétés, périodes et secteurs étudiés selon les données disponibles.
+2. Recueillir les états financiers, rapports d'entreprise et informations de marché à partir de sources identifiables.
+3. Vérifier les unités, dates, périmètres et définitions comptables des données.
+4. Calculer des ratios et indicateurs financiers adaptés aux entreprises et au secteur considéré.
+5. Comparer les performances dans le temps et entre sociétés de manière contextualisée.
+6. Identifier les limites des données et éviter toute conclusion trop forte ou non soutenue.
 
-Python, Pandas et une bibliothèque de backtesting telle que Backtesting.py, sous réserve de son adéquation au protocole retenu. Les versions, données et paramètres devront être consignés pour assurer la reproductibilité.
+## Données et sources
 
-## Indicateurs prévus
+Les données exploitées seront issues de sources publiques et documentées, telles que :
 
-Rendement cumulé et périodique, volatilité, baisse maximale, nombre de transactions, taux de transactions gagnantes, ratio gain/perte et ratio de Sharpe si les conventions sont définies. Les indicateurs seront interprétés avec les coûts et la période de test.
+- rapports annuels et comptes consolidés ;
+- publications d'entreprises ;
+- données de marché et informations accessibles sur les plateformes financières ;
+- documents académiques ou institutionnels lorsqu'ils sont utiles à la méthode.
+
+Toutes les sources doivent être consignées, avec les dates, liens et conventions utilisées, afin de garantir la traçabilité de l'analyse.
+
+## Outils utilisés ou envisagés
+
+- Microsoft Excel pour le rassemblement et le contrôle des données.
+- Python et Pandas pour le nettoyage, le calcul et l'analyse.
+- Matplotlib pour les visualisations si cela s'avère utile.
+- GitHub pour documenter le travail et la méthode.
+
+## Indicateurs financiers
+
+Selon les données disponibles, les indicateurs peuvent inclure :
+
+- chiffre d'affaires et évolution dans le temps ;
+- marge nette et rentabilité ;
+- ROA et ROE lorsque les formules et données sont vérifiées ;
+- endettement et structure du capital ;
+- liquidité et ratios de solvabilité ;
+- évolution des actifs, capitaux propres et résultats.
+
+## Résultats et interprétation
+
+Aucun résultat empirique n'est présenté comme final ou certifié à ce stade. La démarche vise avant tout à construire une méthode d'analyse crédible, transparente et reproductible.
 
 ## État d'avancement
 
-Travail en préparation : règles, marché, données et résultats sont à définir. Aucun résultat historique ne préjuge de performances futures.
+Projet en préparation : les entreprises étudiées, les sources, les calculs et les interprétations restent à affiner progressivement.
+
+### Étude spécifique
+
+- [Analyse financière du Groupe Sonatel (2023-2025)](sonatel/)
+
+---
 
 [Retour à l'accueil]({{ '/' | relative_url }}) · [Présentation du portfolio]({{ '/README.html' | relative_url }})
+

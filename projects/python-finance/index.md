@@ -1,38 +1,70 @@
 ---
-title: "Python appliqué à la finance"
+title: "Optimisation de portefeuille"
 ---
 
-# Python appliqué à la finance
+# Optimisation de portefeuille
 
-**Statut : en préparation.** Cette page présente un axe d'apprentissage ; elle ne prétend pas à la réalisation d'analyses ou d'automatisations déjà achevées.
+<nav class="top-nav" aria-label="Navigation du projet">
+  <a href="{{ '/' | relative_url }}">Accueil</a>
+  <a href="{{ '/README.html' | relative_url }}">Portfolio</a>
+  <a href="{{ '/projects/analyse-brvm/' | relative_url }}">BRVM</a>
+  <a href="{{ '/projects/backtesting-trading/' | relative_url }}">Backtesting</a>
+  <a href="{{ '/projects/python-finance/' | relative_url }}">Python</a>
+</nav>
 
-## Objectif
+## Contexte et problématique
 
-Renforcer ma pratique de Python à travers un flux de travail clair pour importer, nettoyer, analyser et visualiser des données financières.
+Ce projet a pour objectif d'explorer les bases de la théorie moderne du portefeuille, notamment le compromis entre rendement attendu et risque. Il s'intéresse à la manière dont la diversification et la répartition des actifs influencent les performances potentielles d'un portefeuille.
 
-## Problématique
+La question principale est de savoir comment comparer des allocations possibles et décrire leur profil de risque, tout en précisant clairement les hypothèses et les limites des données historiques.
 
-Comment transformer des données financières hétérogènes en informations descriptives vérifiables, tout en conservant la traçabilité des transformations et en évitant les erreurs de calcul ?
+## Objectifs
 
-## Méthodologie envisagée
+- Étudier le rôle de la diversification dans la gestion de portefeuille.
+- Analyser le lien entre rendement attendu, volatilité et corrélations.
+- Construire une approche méthodique de comparaison d'allocations.
+- Identifier les limites d'une optimisation basée sur des données passées.
 
-1. Choisir un jeu de données accessible et documenter sa provenance, son format et ses limites.
-2. Charger les données et examiner les types, dates, doublons, valeurs manquantes et unités.
-3. Nettoyer les données en gardant une trace des choix effectués.
-4. Écrire des calculs simples, les vérifier sur des exemples et commenter les conventions retenues.
-5. Produire des tableaux et graphiques lisibles, accompagnés d'une interprétation descriptive prudente.
-6. Organiser le code et la documentation afin de rendre l'analyse reproductible.
+## Méthodologie
 
-## Outils envisagés
+1. Sélectionner les actifs et séries de prix à partir de données documentées et accessibles.
+2. Déterminer la période d'observation, la fréquence des données et les conventions de calcul.
+3. Calculer les rendements et vérifier la qualité des séries.
+4. Étudier la volatilité, les corrélations et la structure de risque du portefeuille.
+5. Comparer plusieurs allocations définies à l'avance.
+6. Documenter les hypothèses, les biais éventuels et la prudence devant les résultats passés.
 
-Python, Pandas et NumPy pour la manipulation et les calculs ; Matplotlib pour les graphiques ; Jupyter Notebook pourra servir de support d'exploration. Excel pourra aider à contrôler certaines étapes.
+## Données et sources
 
-## Indicateurs prévus
+Les données utilisées proviendront de sources publiques, transparentes et documentées, notamment des séries historiques d'actifs financiers. Le recours à des données de qualité et la précision des conventions de calcul sont essentiels pour éviter les interprétations trompeuses.
 
-Selon le jeu de données : variations et rendements, statistiques descriptives, moyenne et dispersion, volatilité sur une fenêtre documentée, valeurs manquantes et nombre d'observations. Les indicateurs seront choisis en fonction des données plutôt que présentés comme des résultats prédéterminés.
+## Outils utilisés ou envisagés
+
+- Python
+- Pandas et NumPy pour la manipulation et le calcul
+- Matplotlib pour la visualisation
+- Excel pour les vérifications et présentations complémentaires
+
+## Indicateurs financiers
+
+Les indicateurs prévus incluent :
+
+- rendement moyen sur la période observée ;
+- volatilité ;
+- matrice de corrélation ;
+- pondérations des actifs ;
+- rendement et risque du portefeuille ;
+- ratio de Sharpe, seulement si ses hypothèses sont explicitement satisfaites.
+
+## Résultats et interprétation
+
+Aucun portefeuille ni performance historique ne sont présentés comme établis avec certitude. Le projet sert avant tout à développer une compréhension théorique et méthodologique des compromis entre risque et rendement.
 
 ## État d'avancement
 
-Travail en préparation : le jeu de données, les exercices et les analyses restent à sélectionner et à réaliser.
+Travail en préparation : les actifs, les données, les calculs et leurs interprétations restent à définir et à vérifier.
+
+---
 
 [Retour à l'accueil]({{ '/' | relative_url }}) · [Présentation du portfolio]({{ '/README.html' | relative_url }})
+
