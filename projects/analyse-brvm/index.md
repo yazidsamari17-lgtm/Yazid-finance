@@ -4,6 +4,16 @@ title: "Analyse de la BRVM"
 
 # Analyse de la BRVM
 
+Cette rubrique regroupe mes travaux d’analyse financière consacrés aux entreprises cotées à la BRVM. Retrouvez ci-dessous les études d’entreprises déjà documentées ; cette liste sera enrichie au fil de mes analyses.
+
+## Études d’entreprises
+
+### [Analyse financière du Groupe Sonatel (2023–2025)](sonatel/)
+
+Étude du Groupe Sonatel (ticker **SNTS**) à partir de données financières préliminaires : évolution du chiffre d’affaires et du résultat net, rentabilité et premiers constats sur les marges. Le travail prévoit également l’analyse du bilan, de l’endettement, de la liquidité et de la capacité d’autofinancement.
+
+**Statut : en cours de développement.** Les données et calculs restent à vérifier à partir des rapports financiers et de sources référencées. [Consulter l’étude Sonatel](sonatel/).
+
 ## Objectif
 
 Préparer une démarche d'analyse financière de sociétés cotées à la Bourse régionale des valeurs mobilières (BRVM), en reliant les états financiers publiés aux indicateurs de performance et de structure financière.
@@ -23,7 +33,7 @@ Comment évaluer et comparer, à partir d'informations publiques disponibles, la
 
 ## Outils envisagés
 
-Excel pour la collecte structurée et les vérifications ; Python et Pandas pour le nettoyage et les calculs ; Matplotlib pour les visualisations, si pertinent. Les sources effectivement utilisées seront référencées dans le travail final.
+Excel pour la collecte structurée et les vérifications ; Python et Pandas pour le nettoyage et les calculs ; Matplotlib pour les visualisations, si pertinent. Les sources effectivement utilisées seront référencées dans chaque étude.
 
 ## Indicateurs prévus
 
