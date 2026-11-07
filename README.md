@@ -1,132 +1,48 @@
-👋 Hello, I'm El Fuego!
+# Yazid Samari — Portfolio finance de marché
 
-Economics & Management Student | Aspiring Financial Market Analyst | Data & Investment Enthusiast
+Étudiant en **L2 Sciences économiques et de gestion** à la **FASEG, Université de Kara (Togo)**, je développe mes connaissances en analyse financière, marchés de capitaux et outils quantitatifs. Ce dépôt présente mon parcours et des travaux d'étude, dont plusieurs sont encore en préparation.
 
-«Turning financial data into meaningful insights. Building the skills to understand markets, analyze investments and contribute to Africa's financial future.»
+> Mon objectif : apprendre à analyser les données et les mécanismes des marchés financiers avec rigueur, transparence et sens critique.
 
-I'm a second-year Economics and Management student (L2) at the Faculty of Economics and Management (FASEG), University of Kara, Togo.
+## Mon parcours et mes intérêts
 
-I'm passionate about financial markets, investment analysis, portfolio management and data analytics. My ambition is to build a career at the intersection of finance, technology and data, with a particular interest in the development of African financial markets.
+Je m'intéresse à l'analyse des marchés financiers, à l'investissement, à la gestion de portefeuille et à l'utilisation de la programmation pour étudier des données économiques et financières. Je souhaite approfondir ces domaines au fil de ma formation et de projets pratiques, notamment dans le contexte des marchés africains.
 
-I believe that Africa's financial future depends partly on our ability to understand data, allocate capital efficiently and make informed investment decisions. That's the direction I'm working towards.
+Mes objectifs d'apprentissage sont de :
 
----
+- consolider mes bases en économie, comptabilité, statistiques et finance ;
+- étudier les relations entre rendement, risque et diversification ;
+- apprendre à analyser les sociétés cotées et les marchés de la BRVM ;
+- progresser en Python et en analyse de données appliquée à la finance ;
+- documenter mes méthodes, hypothèses et limites sans présenter de résultats non vérifiés.
 
-🎯 My Career Goals
+## Compétences en développement
 
-- Develop strong expertise in financial market analysis.
-- Master investment analysis and portfolio management.
-- Apply quantitative methods to financial decision-making.
-- Build practical projects using Python and financial data.
-- Pursue advanced studies in Financial Markets and Investment Management.
+- **Finance :** analyse financière, notions de risque et de rendement, théorie du portefeuille.
+- **Programmation et données :** Python, Pandas et NumPy — apprentissage et mise en pratique progressive.
+- **Visualisation :** Matplotlib ; présentation de données avec Excel.
+- **Économie :** microéconomie, macroéconomie et sciences de gestion dans le cadre de ma formation.
 
-🛠️ Technical Skills & Tools
+Cette liste décrit des domaines que j'étudie et développe ; elle ne constitue pas une déclaration de maîtrise professionnelle.
 
-Area| Technologies / Skills
-Programming| Python
-Data Analysis| Pandas, NumPy
-Visualization| Matplotlib
-Spreadsheets| Microsoft Excel
-Finance| Financial Analysis, Investment Analysis
-Quantitative Finance| Risk & Return Analysis, Portfolio Theory
-Markets| Price Action, Smart Money Concepts, Fibonacci
-Economics| Microeconomics, Macroeconomics
+## Projets d'étude
 
-Currently developing and strengthening these skills through academic learning and practical projects.
+Les pages ci-dessous présentent les questions, démarches envisagées, outils et indicateurs prévus. **Les projets sont en préparation : aucun résultat empirique n'est revendiqué à ce stade.**
 
-📊 Featured Projects
+1. [Optimisation de portefeuille](projects/portfolio-optimization/) — étudier la diversification et l'arbitrage entre rendement et risque.
+2. [Analyse de la BRVM](projects/analyse-brvm/) — structurer une démarche d'étude des sociétés et données du marché régional.
+3. [Backtesting de stratégies de trading](projects/backtesting-trading/) — définir un protocole de test historique et ses limites.
+4. [Python appliqué à la finance](projects/python-finance/) — explorer le traitement et l'analyse de données financières.
 
-Here are the projects I'm developing to transform theoretical knowledge into practical financial skills.
+## Contact et liens
 
-1. 📈 Investment Portfolio Construction & Optimization
+- **Localisation :** Kara, Togo.
+- **GitHub :** [yazidsamari17-lgtm](https://github.com/yazidsamari17-lgtm).
+- **Portfolio complémentaire :** [page Notion](https://app.notion.com/p/3f9e96057d6581b79cf1c26e3c0a0cb2?pvs=204).
+- **Langues :** français ; anglais en cours d'apprentissage.
 
-Objective: Build and optimize an investment portfolio using quantitative methods.
-
-- Historical financial data analysis.
-- Calculation of returns and volatility.
-- Correlation matrix analysis.
-- Asset allocation.
-- Risk and performance evaluation.
-- Introduction to Markowitz Portfolio Theory.
-
-Tools: Python, Pandas, NumPy, Matplotlib, Excel.
-
-"Explore project details" (#investment-portfolio-construction--optimization)
-
-2. 🏦 Financial Statement Analysis – BRVM
-
-Objective: Analyze the financial performance and financial position of companies listed on the Regional Stock Exchange (BRVM).
-
-- Financial statement analysis.
-- Calculation of financial ratios.
-- Cash Flow Analysis (CAF).
-- Profitability analysis (ROE, ROA).
-- Assessment of financial performance.
-- Investment-oriented financial interpretation.
-
-Tools: Excel, Financial Analysis, Python.
-
-"Explore project details" (#financial-statement-analysis--brvm)
-
-3. 📉 Trading Strategy Analysis & Backtesting
-
-Objective: Evaluate trading strategies through historical market data and performance measurements.
-
-- Price Action analysis.
-- Smart Money Concepts.
-- Liquidity and market structure.
-- Fibonacci retracement.
-- Risk/reward analysis.
-- Strategy backtesting.
-
-Markets of interest: XAUUSD and BTCUSD.
-
-Tools: Python, Pandas, Backtesting.py.
-
-"Explore project details" (#trading-strategy-analysis--backtesting)
-
-4. 🐍 Python for Financial Data Analysis
-
-Objective: Use programming to automate financial calculations and extract useful information from datasets.
-
-- Data cleaning and processing.
-- Financial calculations.
-- Statistical analysis.
-- Data visualization.
-- Financial reporting automation.
-
-"Explore project details" (#python-for-financial-data-analysis)
+Je suis ouvert aux échanges académiques, aux collaborations étudiantes et aux opportunités d'apprentissage en finance et en analyse de données.
 
 ---
 
-📚 Currently Learning
-
-- Financial Mathematics
-- Statistics and Quantitative Methods
-- Financial Accounting and Corporate Finance
-- Python for Data Analysis
-- Portfolio Theory
-- Financial Markets and Investment Strategies
-
-🌍 Beyond Finance
-
-I'm particularly interested in how technology, financial innovation and data analytics can contribute to economic development in Africa.
-
-My long-term ambition is not just to understand financial markets, but to develop the analytical and technical capabilities to participate in their growth.
-
-🤝 Let's Connect
-
-I'm open to learning opportunities, academic collaborations, internships, financial research projects and professional networking.
-
-- 📁 My Student Portfolio: "Discover my portfolio" (https://app.notion.com/p/3f9e96057d6581b79cf1c26e3c0a0cb2?pvs=204)
-- 💻 GitHub: "Explore my repositories" (https://github.com/)
-- 🌍 Location: Kara, Togo
-- 🗣️ Languages: French | English (Learning)
-
----
-
-💡 My Philosophy
-
-“Don't just study the financial markets. Learn to analyze them, understand their mechanisms and build solutions that create value.”
-
-Building today the financial expertise I want to bring to tomorrow's Africa.
+[Accéder à la page d'accueil du portfolio](index.md).

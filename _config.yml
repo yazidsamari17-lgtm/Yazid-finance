@@ -1,7 +1,8 @@
+# Configuration de GitHub Pages et de Jekyll
 
-title: "Yazid-finance"
+title: "Yazid Samari — Portfolio finance de marché"
 logo: img/logo.png
-description: "Portfolio Finance"
-show_downloads: true
-theme: jekyll-theme-minimal
+description: "Portfolio étudiant en sciences économiques et de gestion, spécialisé dans l'analyse des marchés financiers."
+show_downloads: false
+theme: jekyll-theme-cayman
 lang: fr
