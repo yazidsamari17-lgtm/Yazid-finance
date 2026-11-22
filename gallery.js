@@ -6,7 +6,7 @@
   const box = document.getElementById('lightbox');
   if (!grid) return;
 
-  const BASE = 'assets/galerie/';
+  const BASE = 'Assets/Galerie/';
   const NOM_VALIDE = /^[\w\-. ()]+\.(jpe?g|png|webp|gif|avif)$/i;
   let photos = [];
   let index = 0;
