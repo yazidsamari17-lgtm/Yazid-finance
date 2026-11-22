@@ -13,10 +13,10 @@ Portfolio professionnel en français, consacré au parcours, aux compétences et
 ├── script.js
 ├── gallery.js
 ├── sonatel.js
-├── projets/
+├── Projets/
 │   └── sonatel.html
-└── assets/
-    └── galerie/
+└── Assets/
+    └── Galerie/
         ├── galerie.json
         └── LISEZ-MOI.md
 ```
