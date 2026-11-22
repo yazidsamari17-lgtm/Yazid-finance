@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Analyse financière provisoire de Sonatel (BRVM : SNTS) sur les exercices 2023 à 2025 : indicateurs clés, graphiques, conclusions et limites. Projet personnel réalisé par Yazid SAMARI.">
+  <meta name="theme-color" content="#080d18">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="Analyse financière de Sonatel 2023-2025 | Yazid SAMARI">
+  <meta property="og:description" content="Indicateurs clés, graphiques, conclusions et limites de l'analyse. Projet personnel réalisé par Yazid SAMARI.">
+  <title>Analyse financière de Sonatel 2023-2025 | Yazid SAMARI</title>
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../extras.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <a class="brand" href="../index.html#accueil" aria-label="Retour à l'accueil">
+      <span class="brand-mark">YS<span>.</span></span>
+      <span class="brand-name">YAZID SAMARI<small>FINANCE & MARKETS</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="mainNav">
+      <a href="../index.html#apropos">À propos</a><a href="../index.html#parcours">Parcours</a><a href="../index.html#competences">Compétences</a>
+      <a href="../index.html#projets">Projets</a><a href="../index.html#galerie">Galerie</a><a class="nav-cta" href="../index.html#contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <section class="proj-hero section-shell">
+      <a class="back-link" href="../index.html#projets">← RETOUR AUX PROJETS</a>
+      <span class="section-label">PROJET PERSONNEL · ANALYSE FINANCIÈRE</span>
+      <h1>Sonatel (SNTS)<br><em>Analyse financière 2023-2025</em></h1>
+      <p class="proj-lead">Lecture structurée des comptes consolidés IFRS de Sonatel, opérateur de télécommunications coté à la BRVM : activité, rentabilité, structure financière, liquidité, trésorerie et valorisation.</p>
+      <div class="proj-badges"><span class="badge warn">ANALYSE PROVISOIRE</span><span class="badge">COMPTES CONSOLIDÉS IFRS</span><span class="badge">MILLIARDS DE FCFA</span><span class="badge">EXERCICES 2023 · 2024 · 2025</span></div>
+      <p class="proj-credit"><b>Projet personnel réalisé par Yazid SAMARI</b></p>
+    </section>
+
+    <section class="section section-alt" id="presentation"><div class="section-shell">
+      <div class="section-heading"><div><span class="section-label">01 — PRÉSENTATION</span><h2>Objectif et<br><em>méthode.</em></h2></div></div>
+      <div class="prose">
+        <p>L'objectif est d'apprendre à lire et à interpréter les états financiers d'une grande société cotée de la zone UEMOA, en passant des chiffres publiés à un diagnostic argumenté.</p>
+        <p><b>Sources :</b> les résultats financiers consolidés des exercices 2023, 2024 et 2025 publiés par le Groupe Sonatel (compte de résultat, bilan, flux de trésorerie, variation des capitaux propres, dividendes), attestations des commissaires aux comptes comprises. Les notes annexes n'ont pas été exploitées.</p>
+        <p><b>Méthode :</b> chaque ratio est calculé à partir des états financiers, avec sa formule explicitée. Je distingue ce qui est constaté dans les documents de ce qui relève de mon interprétation ou d'une estimation. Le classeur de travail reste privé à ce stade.</p>
+      </div>
+    </div></section>
+
+    <section class="section section-shell" id="indicateurs">
+      <div class="section-heading"><div><span class="section-label">02 — INDICATEURS CLÉS</span><h2>L'essentiel<br><em>en 2025.</em></h2></div><p class="section-intro">Variations calculées entre 2024 et 2025, sauf mention contraire.</p></div>
+      <div class="kpi-grid">
+        <div class="kpi"><span>CHIFFRE D'AFFAIRES</span><strong>1 923,1 Mds</strong><small>+8,3 % (+18,7 % vs 2023)</small></div>
+        <div class="kpi"><span>RÉSULTAT NET CONSOLIDÉ</span><strong>413,6 Mds</strong><small class="down">+5,1 % (après +18,7 % en 2024)</small></div>
+        <div class="kpi"><span>MARGE OPÉRATIONNELLE</span><strong>34,8 %</strong><small class="down">stable vs 34,9 % en 2024</small></div>
+        <div class="kpi"><span>ROE PART DU GROUPE</span><strong>30,9 %</strong><small class="down">34,1 % en 2024</small></div>
+        <div class="kpi"><span>DETTE FINANCIÈRE NETTE</span><strong>−113,3 Mds</strong><small>position nette créditrice</small></div>
+        <div class="kpi"><span>FLUX OPÉRATIONNELS</span><strong>681,6 Mds</strong><small>≈ 1,65 × le résultat net</small></div>
+      </div>
+      <div class="table-wrap" style="margin-top:28px"><table class="data">
+        <caption class="sub-note" style="text-align:left;caption-side:bottom;padding:12px 14px">Montants en milliards de FCFA, comptes consolidés. Source : états financiers consolidés 2023-2025 du Groupe Sonatel ; calculs personnels. Chiffres arrondis.</caption>
+        <thead><tr><th scope="col">Indicateur</th><th scope="col">2023</th><th scope="col">2024</th><th scope="col">2025</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Chiffre d'affaires</th><td>1 620,7</td><td>1 776,4</td><td>1 923,1</td></tr>
+          <tr><th scope="row">Résultat d'exploitation (EBIT)</th><td>515,7</td><td>619,5</td><td>669,8</td></tr>
+          <tr><th scope="row">Résultat net consolidé</th><td>331,7</td><td>393,7</td><td>413,6</td></tr>
+          <tr><th scope="row">Marge nette</th><td>20,5 %</td><td>22,2 %</td><td>21,5 %</td></tr>
+          <tr><th scope="row">ROCE</th><td>42,0 %</td><td>42,7 %</td><td>40,6 %</td></tr>
+          <tr><th scope="row">Dettes financières</th><td>381,9</td><td>460,5</td><td>402,7</td></tr>
+          <tr><th scope="row">Capitaux propres totaux</th><td>1 065,7</td><td>1 274,6</td><td>1 399,3</td></tr>
+          <tr><th scope="row">Autonomie financière (CP / actif)</th><td>41,4 %</td><td>41,1 %</td><td>42,8 %</td></tr>
+          <tr><th scope="row">Liquidité générale</th><td>0,84</td><td>0,98</td><td>1,05</td></tr>
+          <tr><th scope="row">Liquidité immédiate</th><td>0,31</td><td>0,31</td><td>0,34</td></tr>
+          <tr><th scope="row">CAPEX</th><td>288,1</td><td>300,9</td><td>289,2</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section class="section section-alt" id="graphiques"><div class="section-shell">
+      <div class="section-heading"><div><span class="section-label">03 — GRAPHIQUES</span><h2>Lire les<br><em>tendances.</em></h2></div><p class="section-intro">Survolez ou touchez un graphique pour afficher les valeurs exactes.</p></div>
+      <div class="chart-grid">
+        <div class="chart-card wide"><h3>Activité et résultats</h3><p>Le chiffre d'affaires progresse chaque année, mais le résultat net ralentit nettement en 2025.</p><div class="chart-box"><canvas id="chartActivite" role="img" aria-label="Histogramme du chiffre d'affaires, de l'EBIT et du résultat net consolidé de Sonatel, 2023 à 2025"></canvas></div></div>
+        <div class="chart-card"><h3>Marges</h3><p>La hausse des marges s'est arrêtée en 2025.</p><div class="chart-box"><canvas id="chartMarges" role="img" aria-label="Courbes des marges opérationnelle et nette de Sonatel, 2023 à 2025"></canvas></div></div>
+        <div class="chart-card"><h3>Rentabilité</h3><p>ROCE, ROE et ROA net : très élevés, en léger repli en 2025.</p><div class="chart-box"><canvas id="chartRentabilite" role="img" aria-label="Courbes du ROCE, du ROE part du Groupe et du ROA net de Sonatel, 2023 à 2025"></canvas></div></div>
+        <div class="chart-card"><h3>Dette et trésorerie</h3><p>Les disponibilités dépassent les dettes financières en 2025.</p><div class="chart-box"><canvas id="chartStructure" role="img" aria-label="Histogramme des dettes financières, des disponibilités et de la dette financière nette de Sonatel, 2023 à 2025"></canvas></div></div>
+        <div class="chart-card"><h3>Flux de trésorerie</h3><p>Le flux résiduel simplifié est la différence entre flux opérationnels et CAPEX.</p><div class="chart-box"><canvas id="chartFlux" role="img" aria-label="Histogramme des flux de trésorerie opérationnels, du CAPEX et du flux résiduel de Sonatel, 2023 à 2025"></canvas></div></div>
+      </div>
+    </div></section>
+
+    <section class="section section-shell" id="valorisation">
+      <div class="section-heading"><div><span class="section-label">04 — VALORISATION</span><h2>Ce que le marché<br><em>paie.</em></h2></div><p class="section-intro">Données de marché au 18/11/2026, saisies par mes soins et non vérifiées sur le Bulletin Officiel de la Cote de la BRVM.</p></div>
+      <div class="table-wrap"><table class="data">
+        <thead><tr><th scope="col">Indicateur</th><th scope="col">Valeur</th><th scope="col">Lecture</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Cours (post-fractionnement 10 pour 1)</th><td>4 100 FCFA</td><td>À vérifier</td></tr>
+          <tr><th scope="row">Capitalisation boursière</th><td>4 100 Mds FCFA</td><td>Cours × 1 milliard d'actions</td></tr>
+          <tr><th scope="row">PER recalculé (résultat part du Groupe)</th><td>12,0 x</td><td>Cours / BNPA 2025 de 342 FCFA</td></tr>
+          <tr><th scope="row">PER affiché par la BRVM</th><td>9,94 x</td><td>Non vérifié, méthode non documentée</td></tr>
+          <tr><th scope="row">Price-to-Book</th><td>3,5 x</td><td>Capitalisation / capitaux propres Groupe</td></tr>
+          <tr><th scope="row">Price-to-Sales</th><td>2,1 x</td><td>Capitalisation / chiffre d'affaires</td></tr>
+          <tr><th scope="row">Valeur d'entreprise / EBIT</th><td>6,3 x</td><td>Valeur d'entreprise approchée<span class="est">estimation</span></td></tr>
+          <tr><th scope="row">Rendement brut du dividende</th><td>4,7 %</td><td>193,3 FCFA par action post-fractionnement</td></tr>
+        </tbody>
+      </table></div>
+      <p class="sub-note">Lecture : environ 12 fois les bénéfices du Groupe pour une rentabilité très élevée. Ce multiple n'est ni « cher » ni « bon marché » à lui seul : il faudrait le comparer à d'autres sociétés du secteur, ce que cette version ne fait pas.</p>
+    </section>
+
+    <section class="section section-alt" id="conclusions"><div class="section-shell">
+      <div class="section-heading"><div><span class="section-label">05 — CONCLUSIONS</span><h2>Diagnostic<br><em>d'ensemble.</em></h2></div></div>
+      <div class="prose"><p>Sonatel combine une croissance encore soutenue, des marges très élevées, un bilan peu endetté et une forte génération de trésorerie. Les points d'attention sont la pression fiscale et réglementaire sur le résultat net, la baisse du parc mobile en 2025, l'opacité de certains postes du bilan et la fiabilité des données de marché.</p></div>
+      <div class="two-col" style="margin-top:26px">
+        <div class="panel good"><h3>Points forts</h3><ul>
+          <li>Croissance du chiffre d'affaires (+8,3 % en 2025) et de l'EBIT sur trois ans.</li>
+          <li>Marge opérationnelle de 34,8 % et ROCE de 40,6 % en 2025.</li>
+          <li>Dettes financières à 28,8 % des capitaux propres, position nette créditrice en 2025, intérêts couverts environ 27 fois.</li>
+          <li>Flux opérationnels de 681,6 Mds FCFA, soit environ 1,65 fois le résultat net.</li>
+        </ul></div>
+        <div class="panel watch"><h3>Points de vigilance</h3><ul>
+          <li>Résultat net en hausse de seulement 5,1 % en 2025 : l'impôt (+16 %) et les impôts et taxes d'exploitation (+22,5 %) pèsent. Le taux d'impôt effectif estimé atteint environ 36 %.</li>
+          <li>Base clients mobiles en baisse de 1,6 % en 2025, avec −13,7 % au Mali.</li>
+          <li>Liquidité immédiate modeste (0,34) et « autres passifs courants » volumineux et non détaillés (41 % du passif courant).</li>
+          <li>Valorisation : cours et PER BRVM à confirmer.</li>
+        </ul></div>
+      </div>
+    </div></section>
+
+    <section class="section section-shell" id="limites">
+      <div class="section-heading"><div><span class="section-label">06 — LIMITES</span><h2>Ce que cette analyse<br><em>ne dit pas.</em></h2></div></div>
+      <div class="panel"><ul>
+        <li><b>Notes annexes non exploitées :</b> la composition de certains postes (autres actifs et passifs courants, dette, dividendes versés) n'est pas connue.</li>
+        <li><b>Comptes consolidés uniquement :</b> aucun compte social de Sonatel SA. Le taux de distribution calculé est donc une estimation.</li>
+        <li><b>Délais clients et fournisseurs estimés :</b> le cycle de conversion de trésorerie (environ −152 jours) repose sur des approximations, à manier avec prudence.</li>
+        <li><b>BFR et flux résiduel simplifiés :</b> ils ne remplacent ni un besoin en fonds de roulement complet ni un free cash-flow normalisé.</li>
+        <li><b>Dette nette :</b> elle suppose la trésorerie consolidée librement disponible, alors qu'une partie est détenue par des filiales avec actionnaires minoritaires et exposée aux devises locales.</li>
+        <li><b>Effets non opérationnels :</b> l'hyperinflation (IAS 29, Sierra Leone) et les écarts de conversion influencent les capitaux propres et les résultats.</li>
+        <li><b>Marché :</b> cours, nombre d'actions et PER BRVM à confirmer ; PER historique (cours de novembre 2026 sur résultats 2025) ; aucune comparaison avec d'autres opérateurs cotés.</li>
+      </ul></div>
+      <div class="disclaimer"><b>Avertissement.</b> Cette analyse est provisoire et pédagogique. Elle ne constitue ni un conseil en investissement ni une recommandation d'achat ou de vente.</div>
+      <p class="proj-credit" style="margin-top:28px"><b>Projet personnel réalisé par Yazid SAMARI</b></p>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="section-shell footer-inner"><a class="brand" href="../index.html#accueil"><span class="brand-mark">YS<span>.</span></span><span class="brand-name">YAZID SAMARI<small>FINANCE & MARKETS</small></span></a><span>© <span id="year"></span> Yazid SAMARI. Tous droits réservés.</span><a href="#contenu">Retour en haut ↑</a></div></footer>
+  <script src="../script.js"></script>
+  <script src="../sonatel.js"></script>
+</body>
+</html>
